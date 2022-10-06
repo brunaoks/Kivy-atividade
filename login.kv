@@ -3,22 +3,17 @@
     orientation: 'vertical'
     spacing:'1.338cm'
     padding:'2.04cm'
-    
     BoxLayout:
         orientation:'vertical'
         size_hint_y: None
         height:'4.169cm'
-        
-        
-        Image:       
+        Image:
             source:"icone.png"
             size_hint_y: None
             height:"2.465cm"
-
         Label:
             text:'Login'
             font_size: '1.05833cm'
-   
     TextInput:
         multiline:False
         hint_text:"E-mail"
@@ -28,7 +23,6 @@
         font_size:'0.635cm'
         pos_hint: {'center_x': 0.5, 'center_y': 0.5}
         padding : self.height/2 - self.font_size/2
-        
     TextInput:
         multiline:False
         size_hint: None,None
@@ -38,16 +32,12 @@
         font_size:'0.635cm'
         password:True
         padding : self.height/2 - self.font_size/2
-
-
     Button:
         size_hint: None,None
         size_hint_x: 1
         height:'1.549cm'
         text:'Login'
         font_size:'0.635cm'
-        
-
     BoxLayout:
         orientation:'horizontal'
         Label:
